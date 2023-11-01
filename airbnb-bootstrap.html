@@ -15,41 +15,70 @@
 
     <!-- Code here -->
     <div class="border-bottom">
-      <div class="d-flex justify-content-between align-items-center container my-4">
+      <div class="container d-flex justify-content-between align-items-center my-4">
         <img src="./images/logo.png" alt="A Logo" class="rounded" width="50px">
-        <a href="#" class="btn btn-primary">Hello darkness my old friend</a>
+        <a href="#" class="btn btn-info">Hello darkness my old friend</a>
       </div>
     </div>
 
-    <div class="container w-80">
-      <img src="./images/berlin_flat.png" alt="Berlin flat ugh" class="w-100 my-4 rounded">
-      <h1>A really shitty flat in NK</h1>
-      <p>I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this because they kicked me out - good luck to you I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this
-      because they kicked me out - good luck to you I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this
-      because they kicked me out - good luck to you 👻 </p>
-    </div>
-
     <div class="container">
-      <div class="justify-content-center border rounded p-4 my-4">
-        <h3>Book this horrible flat</h3>
-        <form action="#">
-          <div class="mb-3">
-            <label for="#" class="form-label">Message:</label>
-            <input type="text" class="form-control" placeholder="Hello my dear, I'd like to book this shitty place, pls">
+      <div class="row">
+
+        <div class="col-12 col-lg-8">
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide my-4" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/berlin_flat.png" class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/bedroom.png" class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/bathroom.png" class="d-block w-100 rounded" alt="...">
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-            <div class="mb-3">
-              <label for="#" class="form-label">Arrival:</label>
-              <input type="date" class="form-control">
-            </div>
+        <h1>A really shitty flat in NK, Berlin</h1>
+        <p>
+          I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this because they kicked me out - good luck to you I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this
+          because they kicked me out - good luck to you I have lived here for a month and it was horrible and I don't know what to do anymore help me please and book this
+          because they kicked me out - good luck to you 👻
+        </p>
+        </div>
 
-            <div class="mb-3">
-              <label for="#" class="form-label">Departure:</label>
-              <input type="date" class="form-control">
-            </div>
+        <div class="container col-12 col-lg-4">
+          <div class="justify-content-center border rounded p-4 my-4">
+            <h3>Book this horrible flat</h3>
+            <form action="#">
+              <div class="mb-3">
+                <label for="#" class="form-label">Message:</label>
+                <input type="text" class="form-control" placeholder="Hello my dear, I'd like to book this shitty place, pls">
+              </div>
 
-            <input type="submit" class="btn btn-primary w-100">
-        </form>
+                <div class="mb-3">
+                  <label for="#" class="form-label">Arrival:</label>
+                  <input type="date" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                  <label for="#" class="form-label">Departure:</label>
+                  <input type="date" class="form-control">
+                </div>
+
+                <input type="submit" class="btn btn-info w-100">
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
